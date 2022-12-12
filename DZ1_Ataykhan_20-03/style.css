@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:grey;
+    min-height: 100vh;
+}
+
+.container {
+    background-color:silver;
+    padding: 20px;
+    border-radius: 10px;
+    transform: translateY(-30px);
+    border: 3px solid white;
+    width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+label, input {
+    font-size: 18px;
+}
+
+input.error {
+    box-shadow:red;
+}
+
+input.error + span {
+    color: red;
+}
+
+span {
+    height: 18px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    color: transparent;
+}
