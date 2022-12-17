@@ -1,0 +1,21 @@
+body {
+    display: flex;
+}
+
+.wrap {
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    position: absolute;
+}
+
+button {
+    border-radius: 5px;
+}
